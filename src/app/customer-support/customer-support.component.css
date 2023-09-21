@@ -1,0 +1,26 @@
+.push-right {
+    margin-left: 90%;
+}
+
+.person {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(38, 255, 0);
+}
+
+.bot {    
+    font-weight: bold; 
+    color: rgb(0, 42, 255);
+}
+
+.frame-box{
+    border: solid 2px rgb(0, 21, 255); padding: 20px;
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: scroll
+}
+
+
+.padding{
+    padding: 5px;
+}
