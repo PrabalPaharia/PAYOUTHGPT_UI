@@ -7,11 +7,11 @@ import { ResponseModel } from '../models/gpt-response';
 
 
 @Component({
-  selector: 'app-demo',
-  templateUrl: './demo.component.html',
-  styleUrls: ['demo.component.css'],
+  selector: 'app-presentation',
+  templateUrl: './presentation.component.html',
+  styleUrls: ['presentation.component.css'],
 })
-export class DemoComponent implements OnInit {
+export class PresentationComponent implements OnInit {
     response!: ResponseModel | undefined;
     gptModels = gptModels
     promptText = '';

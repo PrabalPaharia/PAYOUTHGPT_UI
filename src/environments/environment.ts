@@ -8,7 +8,7 @@ export const environment: EnvironmentConfiguration = {
   env_name: 'dev',
   production: false,
  // apiKey: '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'
-  apiKey: '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'
+  apiKey: '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'
 };
 
 /*

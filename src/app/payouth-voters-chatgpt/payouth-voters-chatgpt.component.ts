@@ -5,11 +5,11 @@ import { gptModels } from '../models/constants';
 import { ChatWithBot, ResponseModel } from '../models/gpt-response';
 
 @Component({
-  selector: 'app-customer-support',
-  templateUrl: './customer-support.component.html',
-  styleUrls: ['./customer-support.component.css']
+  selector: 'app-payouth-voters-chatgpt',
+  templateUrl: './payouth-voters-chatgpt.component.html',
+  styleUrls: ['./payouth-voters-chatgpt.component.css']
 })
-export class CustomerSupportComponent implements OnInit {
+export class PayouthVotersChatgptComponent implements OnInit {
 chatConversation: ChatWithBot[]=[];
 response!: ResponseModel | undefined;
     gptModels = gptModels
@@ -63,7 +63,7 @@ response!: ResponseModel | undefined;
       let apiResponse =  await openai.createCompletion(requestData);
 
       this.response = apiResponse.data as ResponseModel;
-      this.pushChatContent(this.response.choices[0].text.trim(),'Mr Bot','bot');
+      this.pushChatContent(this.response.choices[0].text.trim(),'ChatGptBot','bot');
 debugger;
       this.showSpinner = false;
     }catch(error:any) {

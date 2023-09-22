@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { routedComponents, AppRoutingModule } from './app-routing.module';
-import { CustomerSupportComponent } from './customer-support/customer-support.component';
+import { PayouthVotersChatgptComponent } from './payouth-voters-chatgpt/payouth-voters-chatgpt.component';
 import { RegistraionComponent } from './registraion/registraion.component';
+import { LlamaGenAIComponent } from './llama-gen-ai/llama-gen-ai.component';
 
 
 
@@ -15,8 +16,9 @@ import { RegistraionComponent } from './registraion/registraion.component';
   declarations: [
     AppComponent,
     routedComponents,
-    CustomerSupportComponent,
-    RegistraionComponent
+    PayouthVotersChatgptComponent,
+    RegistraionComponent,
+    LlamaGenAIComponent
     
   ],
   imports: [
